@@ -37,6 +37,11 @@ printName("Caitlin")
 */
 
 //CODE HERE
+function greeting(name){
+  name = String(name)
+  console.log(`Hello, ${name}`)
+}
+greeting("Harry Potter")
 
 
 ////////////////// PROBLEM 4 ////////////////////
