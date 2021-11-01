@@ -53,6 +53,14 @@ greeting("Harry Potter")
 */
 
 //CODE HERE
+function add(p1, p2){
+  p1 = Number(p1)
+  p2 = Number(p2)
+  return p1 + p2
+}
+
+let sum = add(8, 10)
+console.log(sum)
 
 
 ////////////////// PROBLEM 5 ////////////////////
