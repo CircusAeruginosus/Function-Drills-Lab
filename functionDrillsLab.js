@@ -245,6 +245,12 @@ console.log(myEmail)
 */
 
 //CODE HERE
+function buyFrogs (gold){
+  return gold / 3
+
+}
+let totalFrogs = buyFrogs(50)
+console.log(totalFrogs)
 
 
 ////////////////// PROBLEM 14 ////////////////////
@@ -253,6 +259,17 @@ console.log(myEmail)
 */
 
 //CODE HERE
+function buyFrogs2(gold){
+  if (gold % 3 === 0){
+    return gold / 3
+  }else if ((gold - 1) % 3 === 0){
+    return (gold-1) / 3
+  }else {
+    return (gold -2) / 3
+  }
+}
+let totalFrogs2 = buyFrogs2(100)
+console.log(totalFrogs2)
 
 
 ////////////////// PROBLEM 15 ////////////////////
