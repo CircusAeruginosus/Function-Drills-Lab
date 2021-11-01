@@ -207,6 +207,10 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+function makeUpperCase(string){
+  console.log(string.toUpperCase())
+}
+makeUpperCase(sampleString)
 
 
 ////////////////// PROBLEM 12 ////////////////////
